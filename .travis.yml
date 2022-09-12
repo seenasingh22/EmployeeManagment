@@ -1,0 +1,6 @@
+language: java
+jdk:
+  - openjdk17
+script: ./mvnw clean install
+notifications:
+  email: seena.singh@triconinfotech.com
